@@ -1,0 +1,27 @@
+var squares = ""
+var size = 15
+for (var row = 1; row <= size; row ++){
+  if ( row % 2 !== 0){
+    for (var column = 1; column <= size; column ++){
+      if (column % 2 !== 0) {
+        squares += " "
+      }
+      else if (column % 2 == 0){
+        squares += "#"
+      }
+    }
+  }
+  else if ( row % 2 == 0){
+    for (var column = 1; column <= size; column ++){
+      if (column % 2 !== 0) {
+        squares += "#"
+      }
+      else if (column % 2 == 0){
+        squares += " "
+      }
+    }
+  }
+ squares += "\n"
+  }
+console.log (squares)
+  
