@@ -24,4 +24,3 @@ for (var row = 1; row <= size; row ++){
  squares += "\n"
   }
 console.log (squares)
-  
